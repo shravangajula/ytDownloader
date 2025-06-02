@@ -20,7 +20,7 @@ try:
     )
     
     # Ensure the download directory exists
-    download_path = '/Users/shravankumargajula/Documents/My Folder/YouTubeDownloader'
+    download_path = '/Users/userid/Documents/FolderName/SubFolderName'
     os.makedirs(download_path, exist_ok=True)
     
     print("Fetching video information...")
