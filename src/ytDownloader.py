@@ -3,7 +3,7 @@ from sys import argv
 import os
 
 # Check if URL is provided
-if len(argv) < 2:
+if len(argv) < 5:
     print("Error: Please provide a YouTube URL")
     print("Usage: python3 ytDownloader.py [YouTube URL]")
     exit(1)
